@@ -7,10 +7,10 @@ on:
     - cron: '15 16,18,20,22,0,2,4,6,8,10,12,14 * * *'
   workflow_dispatch:
     inputs:
-      logLevel:
-        description: 'Log level'
-        required: true
-        default: 'warning'
+      #logLevel:
+        #description: 'Log level'
+        #required: true
+        #default: 'warning'
       tags:
         description: 'Manual trigger'
         required: true
@@ -39,19 +39,11 @@ jobs:
         wget http://epg.51zmt.top:8000/e.xml -O zmt.xml
         mv 112114.xml epg
         mv zmt.xml epg
-
-    - name: Clean
-      run: |
-        git config --local user.name "huangsuming"
-        git config --local user.email "huangsuming@users.noreply.github.com"
-        # git checkout --orphan latest_branch
-        git add epg/112114.xml epg/zmt.xml
-        git commit -m "${{ steps.date.outputs.date }}"
-        # git branch -D main
-        # git branch -m main
         
     - name: Push
       run: |
-        # git push -f origin main
-        # git pull origin main
+        git config --local user.name "huangsuming"
+        git config --local user.email "huangsuming@users.noreply.github.com"
+        git add epg/112114.xml epg/zmt.xml
+        git commit -m "${{ steps.date.outputs.date }}"
         git push origin main
