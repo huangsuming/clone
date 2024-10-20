@@ -4,17 +4,18 @@ on:
   watch:
     types: [started]
   schedule:
-    - cron: 15 21 * * *
+    - cron: '15 16,18,20,22,0,2,4,6,8,10,12,14 * * *'
   workflow_dispatch:
     inputs:
-      logLevel:
-        description: 'Log level'
-        required: true
-        default: 'warning'
+      #logLevel:
+        #description: 'Log level'
+        #required: true
+        #default: 'warning'
       tags:
         description: 'Manual trigger'
         required: true
-        
+        default: 'Manual Test'
+
 permissions:
   contents: write
   
@@ -43,17 +44,12 @@ jobs:
         cat fmm.m3u8 kil.m3u8 kmt.m3u8 sux.m3u8 yang.m3u8 zzj.m3u8 > iptv.txt
         rm -f fmm.m3u8 kil.m3u8 kmt.m3u8 sux.m3u8 yang.m3u8 zzj.m3u8
         mv iptv.txt list
-    - name: Clean
-      run: |
-        git config --local user.email "huangsuming@users.noreply.github.com"
-        git config --local user.name "huangsuming"
-        git checkout --orphan latest_branch
-        git add .
-        git commit -m "${{ steps.date.outputs.date }}"
-        git branch -D main
-        git branch -m main
         
     - name: Push
       run: |
-        git push -f origin main
+        git config --local user.name "huangsuming"
+        git config --local user.email "huangsuming@users.noreply.github.com"
+        git add list/iptv.txt
+        git commit -m "${{ steps.date.outputs.date }}"
+        git push  origin main
         
