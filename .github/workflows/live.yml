@@ -1,0 +1,59 @@
+name: Live Update
+
+on:
+  watch:
+    types: [started]
+  schedule:
+    - cron: 15 21 * * *
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Manual trigger'
+        required: true
+        
+permissions:
+  contents: write
+  
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: GetTime
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')"
+      
+    - name: Update
+      run: |
+        wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u8
+        wget https://raw.githubusercontent.com/kilvn/IPTV/master/iptv+.m3u -O kil.m3u8
+        wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O kmt.m3u8
+        wget https://raw.githubusercontent.com/suxuang/myIPTV/master/ipv6.m3u -O sux.m3u8
+        wget https://raw.githubusercontent.com/YanG-1989/m3u/master/Gather.m3u -O yang.m3u8
+        wget https://raw.githubusercontent.com/zzj2678/iptv3/master/tv/iptv6.txt -O zzj.m3u8
+        cat fmm.m3u8 kil.m3u8 kmt.m3u8 sux.m3u8 yang.m3u8 zzj.m3u8 > iptv.txt
+        rm -f fmm.m3u8 kil.m3u8 kmt.m3u8 sux.m3u8 yang.m3u8 zzj.m3u8
+        mv iptv.txt list
+    - name: Clean
+      run: |
+        git config --local user.email "huangsuming@users.noreply.github.com"
+        git config --local user.name "huangsuming"
+        git checkout --orphan latest_branch
+        git add .
+        git commit -m "${{ steps.date.outputs.date }}"
+        git branch -D main
+        git branch -m main
+        
+    - name: Push
+      run: |
+        git push -f origin main
+        
