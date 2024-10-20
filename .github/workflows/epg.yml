@@ -46,8 +46,8 @@ jobs:
         git checkout --orphan latest_branch
         git add epg/112114.xml epg/zmt.xml
         git commit -m "${{ steps.date.outputs.date }}"
-       # git branch -D main
-       # git branch -m main
+        #git branch -D main
+        git branch -m main
         
     - name: Push
       run: |
