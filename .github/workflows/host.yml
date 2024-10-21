@@ -7,7 +7,8 @@ on:
   watch:
     types: [started]
   schedule:
-    - cron: 15 21 * * *
+    #默认为国际标准时间(UTC),比北京慢8小时.
+    - cron: 15 13 * * *
   workflow_dispatch:
     inputs:
       #logLevel:
