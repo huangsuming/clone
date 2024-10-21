@@ -1,1 +1,1 @@
-github hosts更新。
+github [hosts](https://huangsuming.github.io/clone/host/hosts)更新。
