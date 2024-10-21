@@ -1,5 +1,8 @@
 name: HOST Update
-
+  
+env:
+  TZ: Asia/Shanghai
+  
 on:
   watch:
     types: [started]
@@ -18,9 +21,6 @@ on:
 
 permissions:
   contents: write
-  
-env:
-  TZ: Asia/Shanghai
 
 jobs:
   Update:
