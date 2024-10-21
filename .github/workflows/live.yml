@@ -38,7 +38,18 @@ jobs:
         wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u8
         wget https://raw.githubusercontent.com/suxuang/myIPTV/master/ipv6.m3u -O sux.m3u8
         wget https://raw.githubusercontent.com/tansuotv/IPTVindex/master/tv.txt -O tst.txt
-        cat fmm.m3u8 sux.m3u8 tst.txt > iptv.txt
+        echo 'Clone from fmm' >iptv.txt
+        cat fmm.m3u8 >> iptv.txt
+        echo -e >> iptv.txt
+        echo -e >> iptv.txt
+        echo 'Clone from sux' >>iptv.txt
+        cat sux.m3u8 >> iptv.txt
+        echo -e >> iptv.txt
+        echo -e >> iptv.txt
+        echo 'Clone from tst' >>iptv.txt
+        cat tst.txt >> iptv.txt
+        echo -e >> iptv.txt
+        echo -e >> iptv.txt
         rm -f fmm.m3u8 sux.m3u8 tst.txt
         mv iptv.txt list
         
