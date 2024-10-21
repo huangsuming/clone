@@ -49,7 +49,6 @@ jobs:
         echo 'Clone from tst' >>iptv.txt
         cat tst.txt|sed '/^\s*$/d' >> iptv.txt
         echo -e >> iptv.txt
-        echo -e >> iptv.txt
         rm -f fmm.m3u8 sux.m3u8 tst.txt
         mv iptv.txt list
         
