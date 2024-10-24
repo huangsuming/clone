@@ -35,15 +35,13 @@ jobs:
       
     - name: Update
       run: |
+        wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u
+        mv fmm.m3u list
+        
+    - name: Push
+      run: |
         git config --local user.name "huangsuming"
         git config --local user.email "huangsuming@users.noreply.github.com"
-        git pull origin main
-        wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u
-        wget https://raw.githubusercontent.com/tansuotv/IPTVindex/master/tv.txt -O tst.txt
-        cat fmm.m3u > iptv.txt
-        cat tst.txt >> iptv.txt
-        mv fmm.m3u tst.txt iptv.txt list
-        git add list
+        git add list/fmm.m3u
         git commit -m "${{ steps.date.outputs.date }}"
         git push origin main
-        
