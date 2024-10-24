@@ -1,4 +1,3 @@
-Clone from fmm
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道",CCTV-1 综合
 http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226559/index.m3u8
@@ -300,9 +299,6 @@ https://0472.org/hls/cgtnf.m3u8
 https://0472.org/hls/cgtnx.m3u8
 #EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视频道",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
-
-
-Clone from tst
 //源址：https://github.moeyy.xyz/https://github.com/tansuotv/IPTVindex/blob/main/tv.txt
 ❤️241008,#genre#
 移动IPV6,http://[2409:8087:3869:8021:1001::e5]:6610/PLTV/88888888/224/3221225642/2/index.m3u8
@@ -910,4 +906,3 @@ Russia Today 俄罗斯,https://rt-glb.rttv.com/live/rtnews/playlist_2500Kb.m3u8
 SBS 韩国,http://61.82.49.4:1935/live/_definst_/tv.stream/chunklist_w432889607.m3u8
 TBS News 日本,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
 WION 印度,https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8
-
