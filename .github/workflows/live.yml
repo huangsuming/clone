@@ -40,9 +40,11 @@ jobs:
         wget https://raw.githubusercontent.com/tansuotv/IPTVindex/master/tv.txt -O tst.txt
         cat fmm.m3u8 > iptv.txt
         cat tst.txt >> iptv.txt
-        rm -rf fmm.m3u8 tst.txt list/iptv.txt
+        mv fmm.m3u8 list
+        mv tst.txt list
         mv iptv.txt list
-        
+        cd list
+        rm -rf fmm.m3u8 tst.txt
     - name: Push
       run: |
         git config --local user.name "huangsuming"
