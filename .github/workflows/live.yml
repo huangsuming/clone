@@ -51,6 +51,6 @@ jobs:
         git config --local user.email "huangsuming@users.noreply.github.com"
         git add list/iptv.txt
         git commit -m "${{ steps.date.outputs.date }}"
-        git push origin main
+        git push -f origin main
 
         
