@@ -39,10 +39,13 @@ jobs:
         wget https://raw.githubusercontent.com/tansuotv/IPTVindex/master/tv.txt -O tst.txt
         cat fmm.m3u > iptv.txt
         cat tst.txt >> iptv.txt
-        rm fmm.m3u tst.txt
         mv iptv.txt list
         git config --local user.name "huangsuming"
         git config --local user.email "huangsuming@users.noreply.github.com"
-        git init && git add .
+        git add fmm.m3u tst.txt
+        git commit -m "${{ steps.date.outputs.date }}"
+        git rm -f fmm.m3u tst.txt
+        git commit -m "${{ steps.date.outputs.date }}"
+        git add list/iptv.txt
         git commit -m "${{ steps.date.outputs.date }}"
         git push origin main
