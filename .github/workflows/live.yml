@@ -38,8 +38,8 @@ jobs:
       run: |
         wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u8
         wget https://raw.githubusercontent.com/tansuotv/IPTVindex/master/tv.txt -O tst.txt
-        cat fmm.m3u8|sed '/^\s*$/d' > iptv.txt
-        cat tst.txt|sed '/^\s*$/d' >> iptv.txt
+        cat fmm.m3u8 > iptv.txt
+        cat tst.txt >> iptv.txt
         rm -rf fmm.m3u8 tst.txt list/iptv.txt
         mv iptv.txt list
         
