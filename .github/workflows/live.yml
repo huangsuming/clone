@@ -45,6 +45,7 @@ jobs:
         echo "#clone from zhumeng11" >> iptv.txt
         cat zhm.m3u|sed '/^\s*$/d' >> iptv.txt
         sed -i 's/tvg-logo.*png"//g' iptv.txt
+        sed -i 's/tvg-logo="" //g' iptv.txt
         mv fmm.m3u zhm.m3u iptv.txt list
         
     - name: Push
