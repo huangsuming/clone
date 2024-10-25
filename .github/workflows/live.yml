@@ -38,12 +38,12 @@ jobs:
         wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u
         wget https://raw.githubusercontent.com/tansuotv/IPTVindex/master/tv.txt -O tst.txt
         echo "#update on"" $(date +'%Y-%m-%d %H:%M:%S')" > iptv.txt
-        echo "clone from fanmingming" >> iptv.txt
-        cat fmm.m3u|sed '/^$/d' >> iptv.txt
+        echo "#clone from fanmingming" >> iptv.txt
+        cat fmm.m3u|grep -v '^$' >> iptv.txt
         echo -e >> iptv.txt
         echo -e >> iptv.txt
-        echo "clone from tansuotv" >> iptv.txt
-        cat tst.txt|sed '/^$/d' >> iptv.txt
+        echo "#clone from tansuotv" >> iptv.txt
+        cat tst.txt|grep -v '^$' >> iptv.txt
         mv fmm.m3u tst.txt iptv.txt list
         
     - name: Push
