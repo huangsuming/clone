@@ -39,11 +39,11 @@ jobs:
         wget https://raw.githubusercontent.com/tansuotv/IPTVindex/master/tv.txt -O tst.txt
         echo "#update on"" $(date +'%Y-%m-%d %H:%M:%S')" > iptv.txt
         echo "#clone from fanmingming" >> iptv.txt
-        cat fmm.m3u|awk '/./' >> iptv.txt
+        cat fmm.m3u|sed '/^\s*$/d' >> iptv.txt
         echo -e >> iptv.txt
         echo -e >> iptv.txt
         echo "#clone from tansuotv" >> iptv.txt
-        cat tst.txt|awk '/./' >> iptv.txt
+        cat tst.txt|sed '/^\s*$/d' >> iptv.txt
         mv fmm.m3u tst.txt iptv.txt list
         
     - name: Push
