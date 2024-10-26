@@ -1,4 +1,4 @@
-#update on 2024-10-26 15:17:40
+#update on 2024-10-26 22:30:06
 #clone from fanmingming
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-name="CCTV1"  group-title="央视频道",CCTV-1 综合
@@ -1089,29 +1089,31 @@ http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
 http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
 #EXTINF:20 group-title="AKTV" tvg-id="aktv/null-1" provider="AKTV" provider-logo="" provider-type="iptv", 無線新聞台
 http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-#EXTINF:21 group-title="AKTV" tvg-id="aktv/null-18" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠剧集台(北美)
+#EXTINF:21 group-title="AKTV" tvg-id="aktv/hk-1" provider="AKTV" provider-logo="" provider-type="iptv", 美亞電影台(HK)
+http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+#EXTINF:22 group-title="AKTV" tvg-id="aktv/null-18" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠剧集台(北美)
 http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
-#EXTINF:22 group-title="AKTV" tvg-id="aktv/null" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台
+#EXTINF:23 group-title="AKTV" tvg-id="aktv/null" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台
 http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
-#EXTINF:23 group-title="AKTV" tvg-id="aktv/null-16" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台(泰国)
+#EXTINF:24 group-title="AKTV" tvg-id="aktv/null-16" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台(泰国)
 http://aktv.top/AKTV/live/aktv/null-16/AKTV.m3u8
-#EXTINF:24 group-title="AKTV" tvg-id="aktv/null-17" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠综合台(北美)
+#EXTINF:25 group-title="AKTV" tvg-id="aktv/null-17" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠综合台(北美)
 http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
-#EXTINF:25 group-title="AKTV" tvg-id="aktv/null-11" provider="AKTV" provider-logo="" provider-type="iptv", 華視
+#EXTINF:26 group-title="AKTV" tvg-id="aktv/null-11" provider="AKTV" provider-logo="" provider-type="iptv", 華視
 http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
-#EXTINF:26 group-title="AKTV" tvg-id="aktv/null-6" provider="AKTV" provider-logo="" provider-type="iptv", 靖天電影台
+#EXTINF:27 group-title="AKTV" tvg-id="aktv/null-6" provider="AKTV" provider-logo="" provider-type="iptv", 靖天電影台
 http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
-#EXTINF:27 group-title="AKTV" tvg-id="aktv/null-3" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰中文
+#EXTINF:28 group-title="AKTV" tvg-id="aktv/null-3" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰中文
 http://aktv.top/AKTV/live/aktv/null-3/AKTV.m3u8
-#EXTINF:28 group-title="AKTV" tvg-id="aktv/null-4" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰資訊
+#EXTINF:29 group-title="AKTV" tvg-id="aktv/null-4" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰資訊
 http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8
-#EXTINF:29 group-title="AKTV" tvg-id="aktv/null-5" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰香港
+#EXTINF:30 group-title="AKTV" tvg-id="aktv/null-5" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰香港
 http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
-#EXTINF:30 group-title="AKTV" tvg-id="aktv/null-21" provider="AKTV" provider-logo="" provider-type="iptv", 黃金翡翠台
+#EXTINF:31 group-title="AKTV" tvg-id="aktv/null-21" provider="AKTV" provider-logo="" provider-type="iptv", 黃金翡翠台
 http://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
-#EXTINF:31 group-title="AKTV" tvg-id="aktv/null-22" provider="AKTV" provider-logo="" provider-type="iptv", 龍華日韓台
+#EXTINF:32 group-title="AKTV" tvg-id="aktv/null-22" provider="AKTV" provider-logo="" provider-type="iptv", 龍華日韓台
 http://aktv.top/AKTV/live/aktv/null-22/AKTV.m3u8
-#EXTINF:32 group-title="AKTV" tvg-id="aktv/null-7" provider="AKTV" provider-logo="" provider-type="iptv", 龍華經典台
+#EXTINF:33 group-title="AKTV" tvg-id="aktv/null-7" provider="AKTV" provider-logo="" provider-type="iptv", 龍華經典台
 http://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
-#EXTINF:33 group-title="AKTV" tvg-id="aktv/null-23" provider="AKTV" provider-logo="" provider-type="iptv", 龍華電影台
+#EXTINF:34 group-title="AKTV" tvg-id="aktv/null-23" provider="AKTV" provider-logo="" provider-type="iptv", 龍華電影台
 http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
