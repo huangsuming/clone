@@ -37,7 +37,7 @@ jobs:
       run: |
         wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u
         wget https://raw.githubusercontent.com/zhumeng11/IPTV/master/IPTV.m3u -O zhm.m3u
-        wgwt https://aktv.top/live.m3u -O aktv.m3u
+        wget https://aktv.top/live.m3u -O aktv.m3u
         echo "#update on"" $(date +'%Y-%m-%d %H:%M:%S')" > iptv.txt
         echo "#clone from fanmingming" >> iptv.txt
         cat fmm.m3u|sed '/^\s*$/d' >> iptv.txt
