@@ -1,4 +1,4 @@
-#update on 2024-10-28 22:34:20
+#update on 2024-10-29 22:33:53
 #clone from fanmingming
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-name="CCTV1"  group-title="央视频道",CCTV-1 综合
@@ -1047,55 +1047,205 @@ http://aktv.top/AKTV/live/aktv/tvbs/AKTV.m3u8
 http://aktv.top/AKTV/live/aktv/tvbs-1/AKTV.m3u8
 #EXTINF:11 group-title="AKTV" tvg-id="aktv/tvn" provider="AKTV" provider-logo="" provider-type="iptv", tvN
 http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
-#EXTINF:12 group-title="AKTV" tvg-id="aktv/null-13" provider="AKTV" provider-logo="" provider-type="iptv", 三立綜合台
-http://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
-#EXTINF:13 group-title="AKTV" tvg-id="aktv/null-14" provider="AKTV" provider-logo="" provider-type="iptv", 三立財經新聞
-http://aktv.top/AKTV/live/aktv/null-14/AKTV.m3u8
-#EXTINF:14 group-title="AKTV" tvg-id="aktv/null-12" provider="AKTV" provider-logo="" provider-type="iptv", 中天亞洲台
+#EXTINF:12 group-title="AKTV" tvg-id="aktv/null-12" provider="AKTV" provider-logo="" provider-type="iptv", 中天亞洲台
 http://aktv.top/AKTV/live/aktv/null-12/AKTV.m3u8
-#EXTINF:15 group-title="AKTV" tvg-id="aktv/null-8" provider="AKTV" provider-logo="" provider-type="iptv", 中天新聞台
+#EXTINF:13 group-title="AKTV" tvg-id="aktv/null-8" provider="AKTV" provider-logo="" provider-type="iptv", 中天新聞台
 http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
-#EXTINF:16 group-title="AKTV" tvg-id="aktv/null-10" provider="AKTV" provider-logo="" provider-type="iptv", 中視
+#EXTINF:14 group-title="AKTV" tvg-id="aktv/null-10" provider="AKTV" provider-logo="" provider-type="iptv", 中視
 http://aktv.top/AKTV/live/aktv/null-10/AKTV.m3u8
-#EXTINF:17 group-title="AKTV" tvg-id="aktv/null-15" provider="AKTV" provider-logo="" provider-type="iptv", 千禧經典台
+#EXTINF:15 group-title="AKTV" tvg-id="aktv/null-15" provider="AKTV" provider-logo="" provider-type="iptv", 千禧經典台
 http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
-#EXTINF:18 group-title="AKTV" tvg-id="aktv/hk" provider="AKTV" provider-logo="" provider-type="iptv", 娛樂新聞台(HK)
+#EXTINF:16 group-title="AKTV" tvg-id="aktv/hk" provider="AKTV" provider-logo="" provider-type="iptv", 娛樂新聞台(HK)
 http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
-#EXTINF:19 group-title="AKTV" tvg-id="aktv/null-9" provider="AKTV" provider-logo="" provider-type="iptv", 寰宇新聞台
+#EXTINF:17 group-title="AKTV" tvg-id="aktv/null-9" provider="AKTV" provider-logo="" provider-type="iptv", 寰宇新聞台
 http://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
-#EXTINF:20 group-title="AKTV" tvg-id="aktv/null-20" provider="AKTV" provider-logo="" provider-type="iptv", 无线新闻台(北美)
+#EXTINF:18 group-title="AKTV" tvg-id="aktv/null-20" provider="AKTV" provider-logo="" provider-type="iptv", 无线新闻台(北美)
 http://aktv.top/AKTV/live/aktv/null-20/AKTV.m3u8
-#EXTINF:21 group-title="AKTV" tvg-id="aktv/null-19" provider="AKTV" provider-logo="" provider-type="iptv", 明珠剧集台(北美)
+#EXTINF:19 group-title="AKTV" tvg-id="aktv/null-19" provider="AKTV" provider-logo="" provider-type="iptv", 明珠剧集台(北美)
 http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
-#EXTINF:22 group-title="AKTV" tvg-id="aktv/null-2" provider="AKTV" provider-logo="" provider-type="iptv", 明珠台
+#EXTINF:20 group-title="AKTV" tvg-id="aktv/null-2" provider="AKTV" provider-logo="" provider-type="iptv", 明珠台
 http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
-#EXTINF:23 group-title="AKTV" tvg-id="aktv/null-1" provider="AKTV" provider-logo="" provider-type="iptv", 無線新聞台
+#EXTINF:21 group-title="AKTV" tvg-id="aktv/null-1" provider="AKTV" provider-logo="" provider-type="iptv", 無線新聞台
 http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-#EXTINF:24 group-title="AKTV" tvg-id="aktv/hk-1" provider="AKTV" provider-logo="" provider-type="iptv", 美亞電影台(HK)
+#EXTINF:22 group-title="AKTV" tvg-id="aktv/hk-1" provider="AKTV" provider-logo="" provider-type="iptv", 美亞電影台(HK)
 http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
-#EXTINF:25 group-title="AKTV" tvg-id="aktv/null-18" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠剧集台(北美)
+#EXTINF:23 group-title="AKTV" tvg-id="aktv/null-18" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠剧集台(北美)
 http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
-#EXTINF:26 group-title="AKTV" tvg-id="aktv/null" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台
+#EXTINF:24 group-title="AKTV" tvg-id="aktv/null" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台
 http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
-#EXTINF:27 group-title="AKTV" tvg-id="aktv/null-16" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台(泰国)
+#EXTINF:25 group-title="AKTV" tvg-id="aktv/null-16" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠台(泰国)
 http://aktv.top/AKTV/live/aktv/null-16/AKTV.m3u8
-#EXTINF:28 group-title="AKTV" tvg-id="aktv/null-17" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠综合台(北美)
+#EXTINF:26 group-title="AKTV" tvg-id="aktv/null-17" provider="AKTV" provider-logo="" provider-type="iptv", 翡翠综合台(北美)
 http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
-#EXTINF:29 group-title="AKTV" tvg-id="aktv/null-11" provider="AKTV" provider-logo="" provider-type="iptv", 華視
+#EXTINF:27 group-title="AKTV" tvg-id="aktv/null-11" provider="AKTV" provider-logo="" provider-type="iptv", 華視
 http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
-#EXTINF:30 group-title="AKTV" tvg-id="aktv/null-6" provider="AKTV" provider-logo="" provider-type="iptv", 靖天電影台
+#EXTINF:28 group-title="AKTV" tvg-id="aktv/null-6" provider="AKTV" provider-logo="" provider-type="iptv", 靖天電影台
 http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
-#EXTINF:31 group-title="AKTV" tvg-id="aktv/null-3" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰中文
+#EXTINF:29 group-title="AKTV" tvg-id="aktv/null-3" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰中文
 http://aktv.top/AKTV/live/aktv/null-3/AKTV.m3u8
-#EXTINF:32 group-title="AKTV" tvg-id="aktv/null-4" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰資訊
+#EXTINF:30 group-title="AKTV" tvg-id="aktv/null-4" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰資訊
 http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8
-#EXTINF:33 group-title="AKTV" tvg-id="aktv/null-5" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰香港
+#EXTINF:31 group-title="AKTV" tvg-id="aktv/null-5" provider="AKTV" provider-logo="" provider-type="iptv", 鳳凰香港
 http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
-#EXTINF:34 group-title="AKTV" tvg-id="aktv/null-21" provider="AKTV" provider-logo="" provider-type="iptv", 黃金翡翠台
+#EXTINF:32 group-title="AKTV" tvg-id="aktv/null-21" provider="AKTV" provider-logo="" provider-type="iptv", 黃金翡翠台
 http://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
-#EXTINF:35 group-title="AKTV" tvg-id="aktv/null-22" provider="AKTV" provider-logo="" provider-type="iptv", 龍華日韓台
+#EXTINF:33 group-title="AKTV" tvg-id="aktv/null-22" provider="AKTV" provider-logo="" provider-type="iptv", 龍華日韓台
 http://aktv.top/AKTV/live/aktv/null-22/AKTV.m3u8
-#EXTINF:36 group-title="AKTV" tvg-id="aktv/null-7" provider="AKTV" provider-logo="" provider-type="iptv", 龍華經典台
+#EXTINF:34 group-title="AKTV" tvg-id="aktv/null-7" provider="AKTV" provider-logo="" provider-type="iptv", 龍華經典台
 http://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
-#EXTINF:37 group-title="AKTV" tvg-id="aktv/null-23" provider="AKTV" provider-logo="" provider-type="iptv", 龍華電影台
+#EXTINF:35 group-title="AKTV" tvg-id="aktv/null-23" provider="AKTV" provider-logo="" provider-type="iptv", 龍華電影台
 http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
+#EXTINF:36 group-title="beesport" tvg-id="beesport/82909245d7406cd2f940805834c8bb51" provider="beesport" provider-logo="" provider-type="iptv", TNT Sport 1
+http://aktv.top/AKTV/live/beesport/82909245d7406cd2f940805834c8bb51/AKTV.m3u8
+#EXTINF:37 group-title="beesport" tvg-id="beesport/74d247a2745326caf278f7e78348ba6d" provider="beesport" provider-logo="" provider-type="iptv", TNT Sport 2
+http://aktv.top/AKTV/live/beesport/74d247a2745326caf278f7e78348ba6d/AKTV.m3u8
+#EXTINF:38 group-title="beesport" tvg-id="beesport/77c30e853ee4beb40d683fc349a64169" provider="beesport" provider-logo="" provider-type="iptv", TNT Sport 3
+http://aktv.top/AKTV/live/beesport/77c30e853ee4beb40d683fc349a64169/AKTV.m3u8
+#EXTINF:39 group-title="beesport" tvg-id="beesport/e37492ea3ca0dc92ad42dde2630c9e39" provider="beesport" provider-logo="" provider-type="iptv", TNT Sport 4
+http://aktv.top/AKTV/live/beesport/e37492ea3ca0dc92ad42dde2630c9e39/AKTV.m3u8
+#EXTINF:40 group-title="beesport" tvg-id="beesport/f5e3855d29156d0f9db77949ac7ad499" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Football
+http://aktv.top/AKTV/live/beesport/f5e3855d29156d0f9db77949ac7ad499/AKTV.m3u8
+#EXTINF:41 group-title="beesport" tvg-id="beesport/09e05360bef651699a48ee86801c0dfd" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Main Event
+http://aktv.top/AKTV/live/beesport/09e05360bef651699a48ee86801c0dfd/AKTV.m3u8
+#EXTINF:42 group-title="beesport" tvg-id="beesport/2e0f37bffd49819fc6c8ff734d9a0a50" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Premier League
+http://aktv.top/AKTV/live/beesport/2e0f37bffd49819fc6c8ff734d9a0a50/AKTV.m3u8
+#EXTINF:43 group-title="beesport" tvg-id="beesport/189b62e7b9f4fb247a03007de1f6b056" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Action
+http://aktv.top/AKTV/live/beesport/189b62e7b9f4fb247a03007de1f6b056/AKTV.m3u8
+#EXTINF:44 group-title="beesport" tvg-id="beesport/fce63bffcad71605ec55d7827914e7f6" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Mix
+http://aktv.top/AKTV/live/beesport/fce63bffcad71605ec55d7827914e7f6/AKTV.m3u8
+#EXTINF:45 group-title="beesport" tvg-id="beesport/a49aab2afb70ffcf3f5e97d6763fed65" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Arena
+http://aktv.top/AKTV/live/beesport/a49aab2afb70ffcf3f5e97d6763fed65/AKTV.m3u8
+#EXTINF:46 group-title="beesport" tvg-id="beesport/4b200ad68aeb55750139f206f6c47a7d" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports News
+http://aktv.top/AKTV/live/beesport/4b200ad68aeb55750139f206f6c47a7d/AKTV.m3u8
+#EXTINF:47 group-title="beesport" tvg-id="beesport/914f7a4613e5d940ada57e8d33d8ee48" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Cricket
+http://aktv.top/AKTV/live/beesport/914f7a4613e5d940ada57e8d33d8ee48/AKTV.m3u8
+#EXTINF:48 group-title="beesport" tvg-id="beesport/9f7f8b69007e18f0b92a714c1d838ba7" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Tennis
+http://aktv.top/AKTV/live/beesport/9f7f8b69007e18f0b92a714c1d838ba7/AKTV.m3u8
+#EXTINF:49 group-title="beesport" tvg-id="beesport/343b4b2909705b5f5babe196c05c7895" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports F1
+http://aktv.top/AKTV/live/beesport/343b4b2909705b5f5babe196c05c7895/AKTV.m3u8
+#EXTINF:50 group-title="beesport" tvg-id="beesport/bdadcc55dfd64f6a02581bb5801440e7" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Golf
+http://aktv.top/AKTV/live/beesport/bdadcc55dfd64f6a02581bb5801440e7/AKTV.m3u8
+#EXTINF:51 group-title="beesport" tvg-id="beesport/062c3d8d23e4fccdd517f308a3fbad16" provider="beesport" provider-logo="" provider-type="iptv", Sky Sports Racing
+http://aktv.top/AKTV/live/beesport/062c3d8d23e4fccdd517f308a3fbad16/AKTV.m3u8
+#EXTINF:52 group-title="beesport" tvg-id="beesport/d64e5234d56d13467181491d8d2afef5" provider="beesport" provider-logo="" provider-type="iptv", Tennis Channel
+http://aktv.top/AKTV/live/beesport/d64e5234d56d13467181491d8d2afef5/AKTV.m3u8
+#EXTINF:53 group-title="beesport" tvg-id="beesport/a310642da2ea71ce0d4e392f483d6c33" provider="beesport" provider-logo="" provider-type="iptv", LaLiga TV
+http://aktv.top/AKTV/live/beesport/a310642da2ea71ce0d4e392f483d6c33/AKTV.m3u8
+#EXTINF:54 group-title="beesport" tvg-id="beesport/22862b6e4e89b5714e59bb25cf4b9944" provider="beesport" provider-logo="" provider-type="iptv", HBO 1
+http://aktv.top/AKTV/live/beesport/22862b6e4e89b5714e59bb25cf4b9944/AKTV.m3u8
+#EXTINF:55 group-title="beesport" tvg-id="beesport/126b2591108210feba8e36b3d0d2c52a" provider="beesport" provider-logo="" provider-type="iptv", HBO 2
+http://aktv.top/AKTV/live/beesport/126b2591108210feba8e36b3d0d2c52a/AKTV.m3u8
+#EXTINF:56 group-title="beesport" tvg-id="beesport/a490ae75a3ec2acf16c9f592e889eb4c" provider="beesport" provider-logo="" provider-type="iptv", Discovery Channel
+http://aktv.top/AKTV/live/beesport/a490ae75a3ec2acf16c9f592e889eb4c/AKTV.m3u8
+#EXTINF:57 group-title="beesport" tvg-id="beesport/00f486555aea454aa54988b41743a8bc" provider="beesport" provider-logo="" provider-type="iptv", Discovery Life
+http://aktv.top/AKTV/live/beesport/00f486555aea454aa54988b41743a8bc/AKTV.m3u8
+#EXTINF:58 group-title="beesport" tvg-id="beesport/34c4dd53a35dd910af2e168bf4cc677a" provider="beesport" provider-logo="" provider-type="iptv", Cinemax West
+http://aktv.top/AKTV/live/beesport/34c4dd53a35dd910af2e168bf4cc677a/AKTV.m3u8
+#EXTINF:59 group-title="beesport" tvg-id="beesport/c63e76acd6cd433a17e66332e0556df8" provider="beesport" provider-logo="" provider-type="iptv", Great Movies
+http://aktv.top/AKTV/live/beesport/c63e76acd6cd433a17e66332e0556df8/AKTV.m3u8
+#EXTINF:60 group-title="beesport" tvg-id="beesport/1c3ce5d57dbeef94c93aa02c219effe9" provider="beesport" provider-logo="" provider-type="iptv", Sky Cinema Comedy
+http://aktv.top/AKTV/live/beesport/1c3ce5d57dbeef94c93aa02c219effe9/AKTV.m3u8
+#EXTINF:61 group-title="beesport" tvg-id="beesport/d5f8b4460d6ea877aa422858f223dcc7" provider="beesport" provider-logo="" provider-type="iptv", Sky Cinema Family
+http://aktv.top/AKTV/live/beesport/d5f8b4460d6ea877aa422858f223dcc7/AKTV.m3u8
+#EXTINF:62 group-title="beesport" tvg-id="beesport/8be5e3f6156a6b2108a2d8b9cc5d5d7c" provider="beesport" provider-logo="" provider-type="iptv", Cartoon Network
+http://aktv.top/AKTV/live/beesport/8be5e3f6156a6b2108a2d8b9cc5d5d7c/AKTV.m3u8
+#EXTINF:63 group-title="beesport" tvg-id="beesport/c0b73a265d8021462bc0daa2ce073b03" provider="beesport" provider-logo="" provider-type="iptv", Virgin 1
+http://aktv.top/AKTV/live/beesport/c0b73a265d8021462bc0daa2ce073b03/AKTV.m3u8
+#EXTINF:64 group-title="beesport" tvg-id="beesport/89bc23b7037e7af811c7ac9e687634e8" provider="beesport" provider-logo="" provider-type="iptv", Virgin 2
+http://aktv.top/AKTV/live/beesport/89bc23b7037e7af811c7ac9e687634e8/AKTV.m3u8
+#EXTINF:65 group-title="beesport" tvg-id="beesport/040bf2b82929d023609c0b53d4d80244" provider="beesport" provider-logo="" provider-type="iptv", Virgin 3
+http://aktv.top/AKTV/live/beesport/040bf2b82929d023609c0b53d4d80244/AKTV.m3u8
+#EXTINF:66 group-title="beesport" tvg-id="beesport/b16583bb7d46945b4da760ca63f79f19" provider="beesport" provider-logo="" provider-type="iptv", DAZN
+http://aktv.top/AKTV/live/beesport/b16583bb7d46945b4da760ca63f79f19/AKTV.m3u8
+#EXTINF:67 group-title="beesport" tvg-id="beesport/26c0468cf211ac60132e6b83a0c9f8ca" provider="beesport" provider-logo="" provider-type="iptv", Bein Sports USA
+http://aktv.top/AKTV/live/beesport/26c0468cf211ac60132e6b83a0c9f8ca/AKTV.m3u8
+#EXTINF:68 group-title="beesport" tvg-id="beesport/bc36c50a5021b6faca6c85bbbdecb882" provider="beesport" provider-logo="" provider-type="iptv", Bein Sports English 2
+http://aktv.top/AKTV/live/beesport/bc36c50a5021b6faca6c85bbbdecb882/AKTV.m3u8
+#EXTINF:69 group-title="beesport" tvg-id="beesport/430611c3f4aa6c6243238ba66e2dbdda" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Premier League
+http://aktv.top/AKTV/live/beesport/430611c3f4aa6c6243238ba66e2dbdda/AKTV.m3u8
+#EXTINF:70 group-title="beesport" tvg-id="beesport/1aee1fd1d31f095b4a9eb41f7f88ae9b" provider="beesport" provider-logo="" provider-type="iptv", SuperSport LaLiga
+http://aktv.top/AKTV/live/beesport/1aee1fd1d31f095b4a9eb41f7f88ae9b/AKTV.m3u8
+#EXTINF:71 group-title="beesport" tvg-id="beesport/64035d9c96b9a6d85df50b0e04315062" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Action
+http://aktv.top/AKTV/live/beesport/64035d9c96b9a6d85df50b0e04315062/AKTV.m3u8
+#EXTINF:72 group-title="beesport" tvg-id="beesport/ffc3d68ff62608f5e62020ad756990ef" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Blitz
+http://aktv.top/AKTV/live/beesport/ffc3d68ff62608f5e62020ad756990ef/AKTV.m3u8
+#EXTINF:73 group-title="beesport" tvg-id="beesport/031b971a00e965ff8542a0c622fd02b0" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Cricket
+http://aktv.top/AKTV/live/beesport/031b971a00e965ff8542a0c622fd02b0/AKTV.m3u8
+#EXTINF:74 group-title="beesport" tvg-id="beesport/d4018ef2d960eff80b156993d8b2315e" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Football
+http://aktv.top/AKTV/live/beesport/d4018ef2d960eff80b156993d8b2315e/AKTV.m3u8
+#EXTINF:75 group-title="beesport" tvg-id="beesport/1ccc0fa859a5a8189a5e812f67f9ce78" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Golf
+http://aktv.top/AKTV/live/beesport/1ccc0fa859a5a8189a5e812f67f9ce78/AKTV.m3u8
+#EXTINF:76 group-title="beesport" tvg-id="beesport/234cd8170d709ae27888973f6f1ca283" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Rugby
+http://aktv.top/AKTV/live/beesport/234cd8170d709ae27888973f6f1ca283/AKTV.m3u8
+#EXTINF:77 group-title="beesport" tvg-id="beesport/d806e8bc6b2600532a008ef79ddd335b" provider="beesport" provider-logo="" provider-type="iptv", SuperSport Tennis
+http://aktv.top/AKTV/live/beesport/d806e8bc6b2600532a008ef79ddd335b/AKTV.m3u8
+#EXTINF:78 group-title="beesport" tvg-id="beesport/27f2c2ba94724001741cc6060a9bdc40" provider="beesport" provider-logo="" provider-type="iptv", Variety 1
+http://aktv.top/AKTV/live/beesport/27f2c2ba94724001741cc6060a9bdc40/AKTV.m3u8
+#EXTINF:79 group-title="beesport" tvg-id="beesport/aeae3ef4ccf45dc800ce4ec38cdf582e" provider="beesport" provider-logo="" provider-type="iptv", Variety 2
+http://aktv.top/AKTV/live/beesport/aeae3ef4ccf45dc800ce4ec38cdf582e/AKTV.m3u8
+#EXTINF:80 group-title="beesport" tvg-id="beesport/da16ca147cc14195b0598dc7ee8da6a9" provider="beesport" provider-logo="" provider-type="iptv", Variety 3
+http://aktv.top/AKTV/live/beesport/da16ca147cc14195b0598dc7ee8da6a9/AKTV.m3u8
+#EXTINF:81 group-title="beesport" tvg-id="beesport/ad798f9999855d225ff6a53e6aab6def" provider="beesport" provider-logo="" provider-type="iptv", Variety 4
+http://aktv.top/AKTV/live/beesport/ad798f9999855d225ff6a53e6aab6def/AKTV.m3u8
+#EXTINF:82 group-title="beesport" tvg-id="beesport/5d47bded69fd7db0f81ea39fe4b5d3de" provider="beesport" provider-logo="" provider-type="iptv", Eurosport 1
+http://aktv.top/AKTV/live/beesport/5d47bded69fd7db0f81ea39fe4b5d3de/AKTV.m3u8
+#EXTINF:83 group-title="beesport" tvg-id="beesport/465ceb1d159f7b0a0372ad1110f95a12" provider="beesport" provider-logo="" provider-type="iptv", Eurosport 2
+http://aktv.top/AKTV/live/beesport/465ceb1d159f7b0a0372ad1110f95a12/AKTV.m3u8
+#EXTINF:84 group-title="beesport" tvg-id="beesport/957b606896178681068789a4e03b67d7" provider="beesport" provider-logo="" provider-type="iptv", Premier Sports 1
+http://aktv.top/AKTV/live/beesport/957b606896178681068789a4e03b67d7/AKTV.m3u8
+#EXTINF:85 group-title="beesport" tvg-id="beesport/69164d3c4dce08f6d208ac2a982ac753" provider="beesport" provider-logo="" provider-type="iptv", Premier Sports 2
+http://aktv.top/AKTV/live/beesport/69164d3c4dce08f6d208ac2a982ac753/AKTV.m3u8
+#EXTINF:86 group-title="beesport" tvg-id="beesport/5eed0d397932b4241d4866728c3b7fcf" provider="beesport" provider-logo="" provider-type="iptv", Golf Channel
+http://aktv.top/AKTV/live/beesport/5eed0d397932b4241d4866728c3b7fcf/AKTV.m3u8
+#EXTINF:87 group-title="beesport" tvg-id="beesport/fdfa99e57d0b886df98fa16b8cefa2b8" provider="beesport" provider-logo="" provider-type="iptv", MLB Network
+http://aktv.top/AKTV/live/beesport/fdfa99e57d0b886df98fa16b8cefa2b8/AKTV.m3u8
+#EXTINF:88 group-title="beesport" tvg-id="beesport/ac36a3696ec781ba88e1469447723040" provider="beesport" provider-logo="" provider-type="iptv", NBA TV
+http://aktv.top/AKTV/live/beesport/ac36a3696ec781ba88e1469447723040/AKTV.m3u8
+#EXTINF:89 group-title="beesport" tvg-id="beesport/0414fb2d1628dadf6c7caf08009bee62" provider="beesport" provider-logo="" provider-type="iptv", NFL Network
+http://aktv.top/AKTV/live/beesport/0414fb2d1628dadf6c7caf08009bee62/AKTV.m3u8
+#EXTINF:90 group-title="beesport" tvg-id="beesport/1389a81eb52b5b6dbe4daee62da95d83" provider="beesport" provider-logo="" provider-type="iptv", NFL Redzone
+http://aktv.top/AKTV/live/beesport/1389a81eb52b5b6dbe4daee62da95d83/AKTV.m3u8
+#EXTINF:91 group-title="beesport" tvg-id="beesport/12214ac8a190eded59d84434bd8f65f6" provider="beesport" provider-logo="" provider-type="iptv", NHL Network
+http://aktv.top/AKTV/live/beesport/12214ac8a190eded59d84434bd8f65f6/AKTV.m3u8
+#EXTINF:92 group-title="beesport" tvg-id="beesport/eb9330e15ec873951dc79e74e2224a65" provider="beesport" provider-logo="" provider-type="iptv", WWE
+http://aktv.top/AKTV/live/beesport/eb9330e15ec873951dc79e74e2224a65/AKTV.m3u8
+#EXTINF:93 group-title="beesport" tvg-id="beesport/b862ab94b5ed6e738e56cb8e4921f0a4" provider="beesport" provider-logo="" provider-type="iptv", Willow Cricket
+http://aktv.top/AKTV/live/beesport/b862ab94b5ed6e738e56cb8e4921f0a4/AKTV.m3u8
+#EXTINF:94 group-title="beesport" tvg-id="beesport/f8cc8db19bb62658056297ccc8915581" provider="beesport" provider-logo="" provider-type="iptv", Willow Extra
+http://aktv.top/AKTV/live/beesport/f8cc8db19bb62658056297ccc8915581/AKTV.m3u8
+#EXTINF:95 group-title="beesport" tvg-id="beesport/eb7e394f241f49c78a4d82aa9286a103" provider="beesport" provider-logo="" provider-type="iptv", World Fishing Network
+http://aktv.top/AKTV/live/beesport/eb7e394f241f49c78a4d82aa9286a103/AKTV.m3u8
+#EXTINF:96 group-title="beesport" tvg-id="beesport/c7172183a085f6c66164a6f5ecd0fc87" provider="beesport" provider-logo="" provider-type="iptv", Fight Network
+http://aktv.top/AKTV/live/beesport/c7172183a085f6c66164a6f5ecd0fc87/AKTV.m3u8
+#EXTINF:97 group-title="beesport" tvg-id="beesport/7b0ef842a6a1233a8a86a8533063a1a1" provider="beesport" provider-logo="" provider-type="iptv", ESPN
+http://aktv.top/AKTV/live/beesport/7b0ef842a6a1233a8a86a8533063a1a1/AKTV.m3u8
+#EXTINF:98 group-title="beesport" tvg-id="beesport/7a39b11b9af247053ebd637ff1ca9db8" provider="beesport" provider-logo="" provider-type="iptv", ESPN 2
+http://aktv.top/AKTV/live/beesport/7a39b11b9af247053ebd637ff1ca9db8/AKTV.m3u8
+#EXTINF:99 group-title="beesport" tvg-id="beesport/9d2247985e7b08766720fcb65864c49c" provider="beesport" provider-logo="" provider-type="iptv", ESPN News
+http://aktv.top/AKTV/live/beesport/9d2247985e7b08766720fcb65864c49c/AKTV.m3u8
+#EXTINF:100 group-title="beesport" tvg-id="beesport/5a04e5bb28a009ab9e705cd588a3a908" provider="beesport" provider-logo="" provider-type="iptv", ESPN U
+http://aktv.top/AKTV/live/beesport/5a04e5bb28a009ab9e705cd588a3a908/AKTV.m3u8
+#EXTINF:101 group-title="beesport" tvg-id="beesport/86a9d33fc11a37b0f0d603f106459632" provider="beesport" provider-logo="" provider-type="iptv", ITV 1
+http://aktv.top/AKTV/live/beesport/86a9d33fc11a37b0f0d603f106459632/AKTV.m3u8
+#EXTINF:102 group-title="beesport" tvg-id="beesport/59764cb470297bf6c00a59aa6c566d8f" provider="beesport" provider-logo="" provider-type="iptv", ITV 2
+http://aktv.top/AKTV/live/beesport/59764cb470297bf6c00a59aa6c566d8f/AKTV.m3u8
+#EXTINF:103 group-title="beesport" tvg-id="beesport/342a0b4badb1f61ea1796465ddd3c508" provider="beesport" provider-logo="" provider-type="iptv", ITV 3
+http://aktv.top/AKTV/live/beesport/342a0b4badb1f61ea1796465ddd3c508/AKTV.m3u8
+#EXTINF:104 group-title="beesport" tvg-id="beesport/d5d2b31067d85c0c49c8e6a1d322f7eb" provider="beesport" provider-logo="" provider-type="iptv", ITV 4
+http://aktv.top/AKTV/live/beesport/d5d2b31067d85c0c49c8e6a1d322f7eb/AKTV.m3u8
+#EXTINF:105 group-title="beesport" tvg-id="beesport/50e67d468d54cd43a2bd100b5ef8a53e" provider="beesport" provider-logo="" provider-type="iptv", MUTV
+http://aktv.top/AKTV/live/beesport/50e67d468d54cd43a2bd100b5ef8a53e/AKTV.m3u8
+#EXTINF:106 group-title="beesport" tvg-id="beesport/9642d4867de8692b67216729b5a0fa40" provider="beesport" provider-logo="" provider-type="iptv", LFC TV
+http://aktv.top/AKTV/live/beesport/9642d4867de8692b67216729b5a0fa40/AKTV.m3u8
+#EXTINF:107 group-title="beesport" tvg-id="beesport/626b396ac9cf17c04dd4dc22cbeb48e3" provider="beesport" provider-logo="" provider-type="iptv", ACC Network
+http://aktv.top/AKTV/live/beesport/626b396ac9cf17c04dd4dc22cbeb48e3/AKTV.m3u8
+#EXTINF:108 group-title="beesport" tvg-id="beesport/41de52cb936b2ffd30bce31fe7e4ea6b" provider="beesport" provider-logo="" provider-type="iptv", CBS Sports Network
+http://aktv.top/AKTV/live/beesport/41de52cb936b2ffd30bce31fe7e4ea6b/AKTV.m3u8
+#EXTINF:109 group-title="beesport" tvg-id="beesport/aa11677d237b2c2b435fd7decac0d7ad" provider="beesport" provider-logo="" provider-type="iptv", CNBC
+http://aktv.top/AKTV/live/beesport/aa11677d237b2c2b435fd7decac0d7ad/AKTV.m3u8
+#EXTINF:110 group-title="beesport" tvg-id="beesport/d7a4d855c19c4685a5dc404088bf2210" provider="beesport" provider-logo="" provider-type="iptv", Fox Sports 1
+http://aktv.top/AKTV/live/beesport/d7a4d855c19c4685a5dc404088bf2210/AKTV.m3u8
+#EXTINF:111 group-title="beesport" tvg-id="beesport/b543594967ce3122d04138e344cdcff2" provider="beesport" provider-logo="" provider-type="iptv", Fox Sports 2
+http://aktv.top/AKTV/live/beesport/b543594967ce3122d04138e344cdcff2/AKTV.m3u8
+#EXTINF:112 group-title="beesport" tvg-id="beesport/aac23523ee8814d41de38e0ccf0affbc" provider="beesport" provider-logo="" provider-type="iptv", FOX News
+http://aktv.top/AKTV/live/beesport/aac23523ee8814d41de38e0ccf0affbc/AKTV.m3u8
