@@ -39,8 +39,6 @@ jobs:
         wget https://hosts.gitcdn.top/hosts.txt -O gitcdn
         wget https://raw.hellogithub.com/hosts -O hello
         mv gitcdn hello host
-
-https://raw.hellogithub.com/hosts
         
     - name: Push
       run: |
