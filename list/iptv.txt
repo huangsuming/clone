@@ -1,4 +1,4 @@
-#update on 2024-12-18 22:34:18
+#update on 2024-12-19 22:33:58
 #clone from fanmingming
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
 #EXTINF:-1 tvg-name="CCTV1"  group-title="央视频道",CCTV-1 综合
