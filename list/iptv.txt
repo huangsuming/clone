@@ -1,4 +1,4 @@
-#update on 2025-03-02 22:30:20
+#update on 2025-03-03 22:33:41
 #clone from fanmingming
 #EXTM3U x-tvg-url="https://live.fanmingming.cn/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-name="CCTV1"  group-title="央视频道",CCTV-1
