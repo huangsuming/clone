@@ -36,7 +36,7 @@ jobs:
     - name: Update
       run: |
         wget https://raw.githubusercontent.com/fanmingming/live/master/tv/m3u/ipv6.m3u -O fmm.m3u
-        wget https://live.zbds.top/tv/iptv4.txt -O zbds.txt
+        wget https://live.zbds.top/tv/iptv4.txt --no-check-certificate -O zbds.txt
         echo "#update on"" $(date +'%Y-%m-%d %H:%M:%S')" > iptv.txt
         echo "#clone from fanmingming" >> iptv.txt
         cat fmm.m3u|sed '/^\s*$/d' >> iptv.txt
